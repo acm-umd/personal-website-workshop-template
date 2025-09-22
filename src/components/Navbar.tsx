@@ -14,7 +14,7 @@ const Navbar = ({ activeSection, scrollToSection }: NavbarProps) => {
     <nav className="fixed top-0 left-0 right-0 bg-white/90 backdrop-blur-md z-50 border-b border-gray-100">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <div className="text-2xl font-bold text-purple-400">
+          <div className="text-2xl font-bold text-blue-400">
             Insert Name
           </div>
           
@@ -26,7 +26,7 @@ const Navbar = ({ activeSection, scrollToSection }: NavbarProps) => {
                 onClick={() => scrollToSection(section)}
                 className={`capitalize transition-colors duration-200 ${
                   activeSection === section 
-                    ? 'text-purple-300 font-semibold' 
+                    ? 'text-blue-300 font-semibold' 
                     : 'text-gray-600 hover:text-purple-300'
                 }`}
               >

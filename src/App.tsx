@@ -35,7 +35,7 @@ export default function App() {
         {
             name: "Software Engineer Intern",
             company: "Company name here",
-            link: "https://google.com/",
+            link: "https://www.acm-umd.com/",
             desc: "cool description or something",
             technologies: [
                 { name: "Python", svg: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" },
@@ -47,7 +47,7 @@ export default function App() {
         {
             name: "Software Engineer Intern",
             company: "Company name here",
-            link: "https://google.com/",
+            link: "https://www.acm-umd.com/",
             desc: "cool description or something",
             technologies: [
                 { name: "Python", svg: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" },
@@ -59,7 +59,7 @@ export default function App() {
         {
             name: "Software Engineer Intern",
             company: "Company name here",
-            link: "https://google.com/",
+            link: "https://www.acm-umd.com/",
             desc: "cool description or something",
             technologies: [
                 { name: "Python", svg: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" },

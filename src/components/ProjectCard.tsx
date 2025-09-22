@@ -9,6 +9,7 @@ interface ProjectCardProps {
   image: string;
 }
 
+// Similar to Experience card, but for projects
 const ProjectCard = ({ name, link, desc, tech, image }: ProjectCardProps) => {
   const [isExpanded, setIsExpanded] = useState(false);
   const maxLength = 120; // Characters to show before truncating
